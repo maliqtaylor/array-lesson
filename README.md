@@ -7,12 +7,8 @@ let secondArr = [1,5,2,4]
 ```
 ## Introduction
   * What is an Array?
-  <details><summary>stuff with *mark* **down**</summary><p>
-  ## _formatted_ **heading** with [a](link)
-  ---
-  {{standard 3-backtick code block omitted from here due to escaping issues}}
-  ---
-  Collapsible until here.
+  * <details><summary>Answer</summary><p>
+  An Array is...
   </p></details>
   * Why are Arrays useful?
   * How do we create Arrays?
