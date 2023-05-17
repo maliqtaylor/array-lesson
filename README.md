@@ -3,15 +3,15 @@
 ## Introduction
   <details> 
     <summary>What is an array? </summary>
-     An array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. Or in simpler terms an array is a way to represent lists in programming.
+      An array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. Or in simpler terms an array is a way to represent lists in programming.
   </details>
 
 ## Lesson Overview
   ### By the End of This Lesson We Should be Able to Answer...
-    * Why are arrays useful?
-    * How do we create arrays?
-    * What is a for loop?
-    * What are array methods?
+  * Why are arrays useful?
+  * How do we create arrays?
+  * What is a for loop?
+  * What are array methods?
 
 ## Array Use Cases
 (create a story here) ex. set of test scores 
