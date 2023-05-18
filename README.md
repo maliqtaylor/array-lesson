@@ -162,11 +162,11 @@ console.log("does groceries include beans?", groceries.includes("beans") );
  #### Slice 
  Now we're finally at the grocery store and a friend is with us. We decide that it's easier to split our list in 2 to cover ground faster. Yep you guessed it! There's a JavaScript array method for that. This time we'll be using slice()
 
- explain what slice is
+ Slice is the most complicated array method we've used today but dont let that intimidate you. It's used for making shallow copys of arrays. Slice can have 0, 1, or 2 arguments. We'll go over what those arguments can be now in our final exersise. 
 
   ```js
 let myHalf = groceries.slice(0, 5);
-let friendsHalf = groceries.slice(5, groceries.length);
+let friendsHalf = groceries.slice(5);
 
   ```
  
