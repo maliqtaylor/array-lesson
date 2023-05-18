@@ -50,11 +50,6 @@ let groceries = ["apple", "peanut butter", "coffee"];
   // Using array constructor
   let array = new array(5);
 
-  // This creates an array with 5 empty values that looks like this
-  [ , , , , ]
-
-  //And NOT
-  [5]
   ```
 </details>
 
