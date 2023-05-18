@@ -43,7 +43,7 @@ let groceries = ["apple", "peanut butter", "coffee"];
 
 ```
 <details> 
- <summary> extra </summary>
+ **<summary> extra </summary>**
   Its worth noting that if you pass a single number (N) using the array constructor method it will create an array with (N) empty values. For example...
 
   ```js
@@ -147,11 +147,13 @@ groceries.shift()
 console.log("groceries after shift:", groceries)
 
   ```
- 
- 
- includes 
- slice  
+ ### Other Array Methods
+ Before our lesson ends we'll go over two more array methods but like I said before there are dozens more. Some are used more often than others and you can check this [Array Method Guide](http://www.google.fr/ "Named link title") for a useful guide on common array methods.
 
+ #### Includes
+
+
+ #### Slice 
  
 ## References
 
