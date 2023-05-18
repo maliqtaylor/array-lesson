@@ -106,14 +106,42 @@ This for loop will log every item in our grocery list one at a time and can come
   </details>
 
 ## Array Methods
-There are dozens of built in array methods in JavaScript that can help us with our grocery list. We'll go over some of them in the next exercise. 
- push - adds 
- pop - removes
- unshift - adds 
- shift - removes 
+We've noticed that our grocery list needs some alterations. Maybe we forgot to add an item to it when we created it; or maybe we realized we already have eggs. Luckily there are dozens of built in array methods in JavaScript that can help us with the changes to our grocery list. We'll go over some of them in the next exercise. 
+
+
+### Adding Items to Our List
+
+#### Push
+We know we forgot to add butter to our grocery list and want to add it. Not a problem! With the push() array method we can easily add an item to the end of our groceries array.
+
+ ```js
+groceries.push("butter")
+
+  ```
+#### Unshift
+
+ ```js
+
+
+  ```
+
+### Removing Items from Our List
+
+#### Pop
+
+ ```js
+
+
+  ```
+#### Shift
+
+ ```js
+
+
+  ```
  
- indexOf - 
- includes - 
+ indexOf  
+ includes  
 
  
 ## References
