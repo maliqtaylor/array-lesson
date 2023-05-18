@@ -1,7 +1,7 @@
 # Array Lesson
 
 ## Introduction
-  #### What is an Array
+  #### What is an Array?
   <details> 
     <summary>  Answer  </summary>
       <br>
@@ -36,10 +36,10 @@ There are two ways to create arrays in JavaScript. The first is using the array 
 
 ```js
 // Using array constructor
-let array = new array("apple", "peanut butter", "coffee");
+let groceries = new array("apple", "peanut butter", "coffee");
 
 // Using the literal notation
-let array = ["apple", "peanut butter", "coffee"];
+let groceries = ["apple", "peanut butter", "coffee"];
 
 ```
 <details> 
@@ -59,10 +59,47 @@ let array = ["apple", "peanut butter", "coffee"];
 </details>
 
 ## Looping Over Arrays
+Now we have a list full of 10 grocery items and we want to make sure all the items on our list one at a time. Whats the best way to do that? To easily see and verify all the items in our list we can write a for loop!
+
+  ```js
+ let groceries = [
+  "apple", 
+  "peanut butter", 
+  "coffee",
+  "eggs",
+  "milk",
+  "sugar",
+  "oranges",
+  "bread",
+  "chips",
+  "bacon",
+  ];
+
+  for(let i = 0; i < groceries.length; i ++){
+    console.log(groceries[i])
+  }
+
+  ```
+
+This for loop will log every item in our grocery list one at a time and can come in handy if our list continues to grow as we'll see later. 
+
+#### Question Time
+* Why does i start at 0 in the example above? 
+  * Ansswer = arrays are zero indexed 
+* What are the two ways to create arrays?
+  * Answer = array literal and array constructor 
+* What does groceries.length mean? What is it's value currently? 
+  * Answer = the length of the grocery list array
 
 ## Array Methods
-  ### Finding Primitive Values
-  ### Finding Reference Values
+There are dozens 
+ push
+ pop
+ unshift
+ shift
+ length
+ indexOf
+ includes
 
 ## References
 
