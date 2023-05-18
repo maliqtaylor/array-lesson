@@ -17,7 +17,17 @@
   * What are array methods?
 
 ## Array Use Cases
-(create a story here) ex. set of test scores 
+We have a list of groceries to grab and want to use JavaScript to help us write a program to keep track of our groceries so we don't forget anything. A simple way to represent our grocery list could be to create a variable for every item we need.
+
+```js
+
+let itemOne = "apple"
+let itemTwo = "peanut butter"
+let itemThree = "orange juice"
+
+```
+
+
 
 ## Creating Arrays
 
@@ -30,9 +40,3 @@
 ## References
 
 
-```js
-let firstArr = [1,2,3]
-let secondArr = [1,5,2,4]
-
-// log [1,5,2,4]
-```
