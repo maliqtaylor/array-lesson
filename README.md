@@ -88,13 +88,22 @@ This for loop will log every item in our grocery list one at a time and can come
   <details> 
     <summary>  Answer  </summary>
       <br>
-        This is because arrays are 0 indexed. While this may sound complicated all it means is that the first element of an array is the 0 index, the second element is the 1st index and so on. For that reason setting i to 0 starts our loop at the first item in the grocery list.
+        This is because arrays are 0 indexed. While this may sound complicated all it means is that the first element of an array is the 0 index, the second element is the 1st index and so on. For that reason setting i to 0 starts our loop at the first item in the grocery list. Also keep in mind because arrays are 0 indexed even though there are 10 items in our grocery list there are only 9 indexes in our groceries array.
   </details>
  
-* What are the two ways to create arrays?
-  * Answer = array literal and array constructor 
-* What does groceries.length mean? What is it's value currently? 
-  * Answer = the length of the grocery list array
+* What are the two ways to create arrays in JavaScript?
+  <details> 
+    <summary>  Answer  </summary>
+      <br>
+        The two ways to create arrays in JavaScipt are using array literal notation and the array constructor method. 
+  </details>
+
+* What does groceries.length mean in our for loop? What is it's value currently? 
+  <details> 
+    <summary>  Answer  </summary>
+      <br>
+        The length here is a property of the groceries array. When we call groceries.length we get the amount of items currently in the groceries array. Since there are currently 10 items in our grocery list groceries.length is 10.
+  </details>
 
 ## Array Methods
 There are dozens of built in array methods in JavaScript that can help us with our grocery list. We'll go over some of them in the next exercise. 
@@ -102,7 +111,6 @@ There are dozens of built in array methods in JavaScript that can help us with o
  pop - removes
  unshift - adds 
  shift - removes 
- length - check
  
  indexOf - 
  includes - 
