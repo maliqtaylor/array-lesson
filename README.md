@@ -162,6 +162,8 @@ console.log("does groceries include beans?", groceries.includes("beans") );
  #### Slice 
  Now we're finally at the grocery store and a friend is with us. We decide that it's easier to split our list in 2 to cover ground faster. Yep you guessed it! There's a JavaScript array method for that. This time we'll be using slice()
 
+ explain what slice is
+
   ```js
 let myHalf = groceries.slice(0, 5);
 let friendsHalf = groceries.slice(5, groceries.length);
@@ -169,5 +171,6 @@ let friendsHalf = groceries.slice(5, groceries.length);
   ```
  
 ## References
-
+[Rebus Community - Arrays and Lists](https://press.rebus.community/programmingfundamentals/chapter/arrays-and-lists/)
+[MDN Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
