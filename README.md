@@ -1,7 +1,7 @@
 # Array Lesson
 
 ## Introduction
-  #### What is an Array?
+  ### What is an Array?
   <details> 
     <summary>  Answer  </summary>
       <br>
@@ -83,24 +83,31 @@ Now we have a list full of 10 grocery items and we want to make sure all the ite
 
 This for loop will log every item in our grocery list one at a time and can come in handy if our list continues to grow as we'll see later. 
 
-#### Question Time
+### Question Time
 * Why does i start at 0 in the example above? 
-  * Ansswer = arrays are zero indexed 
+  <details> 
+    <summary>  Answer  </summary>
+      <br>
+        This is because arrays are 0 indexed. While this may sound complicated all it means is that the first element of an array is the 0 index, the second element is the 1st index and so on. For that reason setting i to 0 starts our loop at the first item in the grocery list.
+  </details>
+ 
 * What are the two ways to create arrays?
   * Answer = array literal and array constructor 
 * What does groceries.length mean? What is it's value currently? 
   * Answer = the length of the grocery list array
 
 ## Array Methods
-There are dozens 
- push
- pop
- unshift
- shift
- length
- indexOf
- includes
+There are dozens of built in array methods in JavaScript that can help us with our grocery list. We'll go over some of them in the next exercise. 
+ push - adds 
+ pop - removes
+ unshift - adds 
+ shift - removes 
+ length - check
+ 
+ indexOf - 
+ includes - 
 
+ 
 ## References
 
 
