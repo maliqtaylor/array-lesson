@@ -172,5 +172,6 @@ let friendsHalf = groceries.slice(5, groceries.length);
  
 ## References
 [Rebus Community - Arrays and Lists](https://press.rebus.community/programmingfundamentals/chapter/arrays-and-lists/)
+
 [MDN Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
