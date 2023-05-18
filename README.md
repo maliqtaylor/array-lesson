@@ -43,21 +43,19 @@ let array = ["apple", "peanut butter", "coffee"];
 ```
 <details> 
  <summary> extra </summary>
-  Its worth noting that if you pass a single number (N) using the array constructor method it will create an array with (N) empty values. 
+  Its worth noting that if you pass a single number (N) using the array constructor method it will create an array with (N) empty values. For example...
 
-  For example...
   ```js
   // Using array constructor
   let array = new array(5);
 
   // This creates an array with 5 empty values that looks like this
-  [, , , ,]
+  [ , , , , ]
 
   //And NOT
   [5]
   ```
 </details>
-
 
 ## Looping Over Arrays
 
