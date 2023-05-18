@@ -43,7 +43,7 @@ let groceries = ["apple", "peanut butter", "coffee"];
 
 ```
 <details> 
- <summary> <p> ***extra*** </p> </summary>
+ <summary> extra </summary>
   Its worth noting that if you pass a single number (N) using the array constructor method it will create an array with (N) empty values. For example...
 
   ```js
@@ -115,8 +115,8 @@ We've noticed that our grocery list needs some alterations. Maybe we forgot to a
 We know we forgot to add butter to our grocery list and want to add it. Not a problem! With the push() array method we can easily add butter to the end of our groceries array.
 
  ```js
-groceries.push("butter")
-console.log("groceries after push:", groceries)
+groceries.push("butter");
+console.log("groceries after push:", groceries);
 
   ```
 
@@ -124,8 +124,8 @@ console.log("groceries after push:", groceries)
 We also forgot to add macaroni to our grocery list and want to add it right at the beginning of our list. Push isn't going to work this time because it allways adds items to the end of our list. No worries though, with the unshift() array method we can add macaroni to the beginning of our groceries array.
 
  ```js
-groceries.unshift("macaroni")
-console.log("groceries after unshift:", groceries)
+groceries.unshift("macaroni");
+console.log("groceries after unshift:", groceries);
 
   ```
 
@@ -136,24 +136,37 @@ We just checked our kitchen and it turns out we already have macaroni and butter
 Starting with removing butter from the end of the groceries array. We have the array method pop(). Remember, pop() does not remove a specific item, it ALWAYS removes the last item in an array.
 
  ```js
-groceries.pop()
-console.log("groceries after pop:", groceries)
+groceries.pop();
+console.log("groceries after pop:", groceries);
 
   ```
 #### Shift
 And when we want to remove the first item from our grocery list we use shift(). Just like with pop() shift ALWAYS removes the first item of an array regardless of value.
  ```js
-groceries.shift()
-console.log("groceries after shift:", groceries)
+groceries.shift();
+console.log("groceries after shift:", groceries);
 
   ```
  ### Other Array Methods
- Before our lesson ends we'll go over two more array methods but like I said before there are dozens more. Some are used more often than others and you can check this [Array Method Guide](http://www.google.fr/ "Named link title") for a useful guide on common array methods.
+ Before our lesson ends we'll go over two more array methods but like I said before there are dozens more. Some are used more often than others and you can check this [Array Method Guide](https://medium.com/@mandeepkaur1/a-list-of-javascript-array-methods-145d09dd19a0 "medium.com list of javascript array methods") for a useful guide on common array methods.
+
 
  #### Includes
+ Lets say we forgot what was on our grocery list and wanted to make sure we added a specific item. We could loop through our groceries array ourselves and verify that the item we were looking for was there but there is an easier way. We can use the includes() array method. Includes takes a given value and returns true if the item is in our array and false if the item is not.
+ ```js
+console.log("does groceries include milk?", groceries.includes("milk") );
+console.log("does groceries include beans?", groceries.includes("beans") );
 
+  ```
 
  #### Slice 
+ Now we're finally at the grocery store and a friend is with us. We decide that it's easier to split our list in 2 to cover ground faster. Yep you guessed it! There's a JavaScript array method for that. This time we'll be using slice()
+
+  ```js
+let myHalf = groceries.slice(0, 5);
+let friendsHalf = groceries.slice(5, groceries.length);
+
+  ```
  
 ## References
 
