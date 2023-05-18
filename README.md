@@ -91,7 +91,7 @@ This for loop will log every item in our grocery list one at a time and can come
         This is because arrays are 0 indexed. While this may sound complicated all it means is that the first element of an array is the 0 index, the second element is the 1st index and so on. For that reason setting i to 0 starts our loop at the first item in the grocery list. Also keep in mind because arrays are 0 indexed even though there are 10 items in our grocery list there are only 9 indexes in our groceries array.
   </details>
  
-* What are the two ways to create arrays in JavaScript?
+* What are the two ways to create arrays in JavaScript? How would our code change if we used the alternate method?
   <details> 
     <summary>  Answer  </summary>
       <br>
@@ -112,36 +112,45 @@ We've noticed that our grocery list needs some alterations. Maybe we forgot to a
 ### Adding Items to Our List
 
 #### Push
-We know we forgot to add butter to our grocery list and want to add it. Not a problem! With the push() array method we can easily add an item to the end of our groceries array.
+We know we forgot to add butter to our grocery list and want to add it. Not a problem! With the push() array method we can easily add butter to the end of our groceries array.
 
  ```js
 groceries.push("butter")
+console.log("groceries after push:", groceries)
 
   ```
+
 #### Unshift
+We also forgot to add macaroni to our grocery list and want to add it right at the beginning of our list. Push isn't going to work this time because it allways adds items to the end of our list. No worries though, with the unshift() array method we can add macaroni to the beginning of our groceries array.
 
  ```js
-
+groceries.unshift("macaroni")
+console.log("groceries after unshift:", groceries)
 
   ```
 
 ### Removing Items from Our List
+We just checked our kitchen and it turns out we already have macaroni and butter. Now we need to take them off our list again. Luckily, just like there are methods for adding to the beginning  and end of arrays there are methods for removing.
 
 #### Pop
+Starting with removing butter from the end of the groceries array. We have the array method pop(). Remember, pop() does not remove a specific item, it ALWAYS removes the last item in an array.
 
  ```js
-
+groceries.pop()
+console.log("groceries after pop:", groceries)
 
   ```
 #### Shift
-
+And when we want to remove the first item from our grocery list we use shift(). Just like with pop() shift ALWAYS removes the first item of an array regardless of value.
  ```js
-
+groceries.shift()
+console.log("groceries after shift:", groceries)
 
   ```
  
- indexOf  
- includes  
+ 
+ includes 
+ slice  
 
  
 ## References
