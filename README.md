@@ -43,7 +43,7 @@ let groceries = ["apple", "peanut butter", "coffee"];
 
 ```
 <details> 
- <summary> ***extra*** </summary>
+ <summary> <p> ***extra*** </p> </summary>
   Its worth noting that if you pass a single number (N) using the array constructor method it will create an array with (N) empty values. For example...
 
   ```js
