@@ -1,8 +1,9 @@
 # Array Lesson
 
 ## Introduction
+  #### What is an Array
   <details> 
-    <summary>  What is an array?  </summary>
+    <summary>  Answer  </summary>
       <br>
         <p>
         An array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. Or in simpler terms an array is a way to represent lists in programming. 
