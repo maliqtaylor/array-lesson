@@ -29,7 +29,7 @@ let itemThree = "coffee"
 
 ```
 
-While this works fine to represent our grocery list, it isn't dynamic and it can become tedious to keep track of every item in our grocery list the longer it gets. If we have a grocery list of 10 items it is pretty easy to tell what item number 7 is but if our list is 100 items long finding item number 77 becomes a more time consuming. This is where arrays come in!
+While this works fine to represent our grocery list, it isn't dynamic and it can become tedious to keep track of every item in our grocery list the longer it gets. If we have a grocery list of 10 items it is pretty easy to tell what item number 7 is but if our list is 100 items long finding item number 77 becomes a bit more time consuming. This is where arrays come in!
 
 ## Creating Arrays
 There are two ways to create arrays in JavaScript. The first is using the array constructor method and the second is using array literal notation. Array literal notation is cleaner and much more common.
